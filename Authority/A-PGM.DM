@@ -420,7 +420,7 @@ mob/TGM/verb
 			return
 		log += "([time2text(world.timeofday,"hh:mm:ss")])-<font color=808000>[src] walkies: [html_encode(copytext(t,1,255))]</font><br>"
 		if(swear == 1)
-			t = filter(t)
+			return
 		for(var/mob/M in world)
 			if(TGM.Find(M.ckey))
 				M << "<p align=left>\icon[usr]<font color=yellow><i>[src.name] walkies: [html_encode(copytext(t,1,255))]"
@@ -681,7 +681,7 @@ mob/AGM/verb
 						var/list/Peepz = list()
 						for(var/mob/M in world)
 							if(TGM.Find(M.ckey))
-								..()
+								return 0
 							else
 								Peepz += M.ckey
 						if(!Peepz)

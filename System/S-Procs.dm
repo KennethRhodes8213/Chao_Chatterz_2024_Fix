@@ -45,7 +45,7 @@ proc	//-- Save/Load Mute
 			usr << "<font color=#C0FFC0>You are in jail."
 
 proc	//-- Cuss Filter
-	filter(say as text)
+/*	filter(say as text)
 		var/p
 		say = "" + copytext(say,1) + ""
 		if(profanity.len)
@@ -54,7 +54,7 @@ proc	//-- Cuss Filter
 				while(p)
 					say = copytext(say,1,p) + profanfix[i] + copytext(say,p+length(profanity[i]))
 					p = findtext(say,profanity[i])
-		return say
+		return say */
 
 var/list	//-- Cusses
 	profanity = list("fuck","shit","cunt","faggot","fag","cock","penis","vagina","pussy","pussies","asshole","nigger","nigga","slut","whore","douche","twat","clit","clitorous","bitch","ass hole","vulva","ebaumsworld")
