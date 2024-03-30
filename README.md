@@ -1,3 +1,5 @@
+** Not that great with Github anymore but these files were originally from [Justin-R-J-Logan's fix](https://github.com/byond-dev/Chao_Chatterz/pull/1) so I literally just cut out some expressions that are no longer used. **
+
 # Chao_Chatterz
 A repository with the latest public source for the [BYOND](http://www.byond.com/) game [Chao Chatterz](http://www.byond.com/games/GoldDean/ChaoChatterz). It was originally made by [Gold Dean](http://www.byond.com/members/GoldDean) and publicly released on August 30, 2005. The latest update by Gold Dean was released on December 10, 2013. Chao Chatterz is an open-world roleplaying game with the real limits being the map-size and your imagination.
 
